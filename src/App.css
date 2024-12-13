@@ -5,3 +5,7 @@
 header ul li {
   @apply px-2;
 }
+
+.bg-primary {
+  background: rgb(85, 81, 227);
+}
