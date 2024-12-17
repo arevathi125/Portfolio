@@ -1,11 +1,11 @@
-import HeroImg from "../assets/Hero.png";
+import HeroImg from "../assets/hero.jpg";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineGithub } from "react-icons/ai";
 
 export default function Hero() {
   return (
     <section className="flex px-5 py-32 bg-secondary justify-center">
-      <div className="md:w-1/2 flex flex-col">
+      <div className="md:w-1/2 flex flex-col justify-center">
         <h1 className="text-white text-5xl">
           Hi, <br />I am Revathi
           <p className="text-2xl">I am a Full-Stack Developer</p>
