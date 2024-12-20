@@ -5,14 +5,17 @@ export default function About() {
     <>
       <section className="flex bg-secondary">
         <div>
-          <img src={AboutImg} />
+          <img className="w-60" src={AboutImg} />
         </div>
         <div className="w-1/2 flex justify-center">
-          <div className="flex flex-col justify-center">
-            <h1 className="text-4xl border-[rgb(85, 81, 227)] text-white border-b-4 mb-5 w-[170px] font-bold">
+          <div className="flex flex-col justify-center px-5 py-142">
+            <h1 className="text-4xl border-primary text-white border-b-4 mb-5 w-[170px] font-bold">
               About Me
             </h1>
-            <p className="text-white">Information about myself</p>
+            <p className="text-white">
+              Hi, My name is Revathi. I am a Full stack web developer. I built
+              beautiful websites with React.js and Tailwind CSS.
+            </p>
           </div>
         </div>
       </section>
