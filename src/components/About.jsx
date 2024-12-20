@@ -4,7 +4,7 @@ export default function About() {
   return (
     <>
       <section className="flex flex-col md:flex-row bg-secondary">
-        <div className="md:w-80">
+        <div className="md:w-80 py-5">
           <img src={AboutImg} />
         </div>
         <div className="md:w-1/2 flex justify-center">
