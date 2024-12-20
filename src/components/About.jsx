@@ -14,7 +14,11 @@ export default function About() {
             </h1>
             <p className="text-white">
               Hi, My name is Revathi. I am a Full stack web developer. I built
-              beautiful websites with React.js and Tailwind CSS.
+              beautiful websites with React.js, Springboot and Tailwind CSS.
+            </p>
+            <p>
+              I am proficient in skills like React js, Tailwind CSS, Angular js,
+              Bootstrap, Thymeleaf, Springboot, .
             </p>
           </div>
         </div>
