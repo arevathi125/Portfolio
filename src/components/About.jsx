@@ -20,7 +20,7 @@ export default function About() {
               <p className="pb-5">
                 I am proficient in skills like React js, Tailwind CSS, Angular
                 js, Bootstrap, Thymeleaf, Springboot, Postman API, Restful web
-                services, Node.js, Mysql workbench, Jenkins, Aws basics.
+                services, Node.js, Mysql workbench, Jenkins, Aws basics, Docker.
               </p>
             </div>
           </div>
