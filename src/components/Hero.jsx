@@ -4,7 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 
 export default function Hero() {
   return (
-    <section className="flex  flex-col md:flex-row px-5 py-32 bg-primary justify-center">
+    <section className="flex flex-col md:flex-row px-5 py-32 bg-primary justify-center">
       <div className="md:w-1/2 flex flex-col justify-center">
         <h1 className="text-white text-5xl">
           Hi, <br />I am Revathi
