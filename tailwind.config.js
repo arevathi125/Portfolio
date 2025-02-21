@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       borderColor: {
         primary: "rgb(85, 81, 227)",
+        secondary: "#2b2d77",
       },
     },
   },
