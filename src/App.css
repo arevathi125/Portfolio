@@ -23,5 +23,5 @@ header ul li {
 }
 
 .project-desc {
- @apply absolute left-0 right-0 bottom-[45px] top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
+ @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 duration-500 hover:opacity-100;
 }
