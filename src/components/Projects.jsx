@@ -1,7 +1,8 @@
 export default function Projects() {
   return (
     <section>
-      <div></div>
+      <div>Heading</div>
+      <div>Images</div>
     </section>
   );
 }
