@@ -1,4 +1,6 @@
 import bandImg from "../assets/band.jpg";
+import booksImg from "../assets/book-shelf.avif";
+
 export default function Projects() {
   return (
     <section className="flex py-20 px-5 justify-center bg-primary text-white">
@@ -10,7 +12,10 @@ export default function Projects() {
         </div>
       </div>
       <div className="w-1/2">
-        <img src={bandImg} />
+        <div className="flex">
+          <img className="h-[200px]" src={bandImg} />
+          <img className="h-[200px]" src={booksImg} />
+        </div>
       </div>
     </section>
   );
