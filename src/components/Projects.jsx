@@ -12,9 +12,19 @@ export default function Projects() {
         </div>
       </div>
       <div className="w-1/2">
-        <div className="flex">
-          <img className="h-[200px]" src={bandImg} />
-          <img className="h-[200px]" src={booksImg} />
+        <div className="flex px-10 gap-5">
+          <div>
+            <img className="h-[200px]" src={bandImg} />
+            <div className="absolute left-0 right-0 bottom-0">
+              <p>Hi</p>
+            </div>
+          </div>
+          <div>
+            <img className="h-[200px]" src={booksImg} />
+            <div>
+              <p>Hello</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
