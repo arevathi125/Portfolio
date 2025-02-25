@@ -9,8 +9,10 @@ export default function Contact() {
           <p className="pb-5 text-white">
             If you want to discuss more in detail, please contact me
           </p>
-          <p>
-            <span>Email: </span>arevathi125@gmail.com
+          <p className="py-2">
+            <span className="font-bold">Email: </span>arevathi125@gmail.com
+            <br />
+            <span className="font-bold">Phone: </span>+1 636-312-7473
           </p>
         </div>
       </section>
