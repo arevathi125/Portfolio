@@ -4,14 +4,10 @@ export default function Contact() {
       <section className="flex flex-col md:flex-row bg-secondary">
         <div className="flex justify-center">
           <h1 className="text-4xl border-primary text-white border-b-4 mb-5 w-[130px] font-bold">
-            Resume
+            Contact
           </h1>
-
           <p className="pb-5">
-            Hi here is my resume link, you can view my resume
-            <a className="button" href="#">
-              Download
-            </a>
+            If you want to discuss more in detail, please contact me
           </p>
         </div>
       </section>
