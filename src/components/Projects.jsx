@@ -3,7 +3,9 @@ import booksImg from "../assets/book-shelf.avif";
 
 export default function Projects() {
   return (
-    <section className="flex-col py-20 px-5 justify-center bg-primary text-white">
+    <section
+      id="projects"
+      className="flex-col py-20 px-5 justify-center bg-primary text-white">
       <div className="full">
         <div className="flex flex-col px-10 py-5">
           <h1 className="text-4xl border-secondary border-b-4 mb-5 w-[140px] font-bold">

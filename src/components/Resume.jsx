@@ -3,7 +3,7 @@ import ResumeImg from "../assets/resume.png";
 export default function Resume() {
   return (
     <>
-      <section className="flex flex-col md:flex-row bg-secondary">
+      <section id="resume" className="flex flex-col md:flex-row bg-secondary">
         <div className="md:w-80 py-5" flex justify-end>
           <img className="w-[300px]" src={ResumeImg} />
         </div>

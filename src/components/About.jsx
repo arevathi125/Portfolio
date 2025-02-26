@@ -3,7 +3,7 @@ import AboutImg from "../assets/about.jpg";
 export default function About() {
   return (
     <>
-      <section className="flex flex-col md:flex-row bg-secondary">
+      <section id="about" className="flex flex-col md:flex-row bg-secondary">
         <div className="md:w-80 py-5">
           <img src={AboutImg} />
         </div>
