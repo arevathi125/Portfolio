@@ -5,7 +5,7 @@ export default function Header() {
 
   return (
     <header className="flex justify-between px-5 py-2 bg-primary">
-      <a className="font-bold text-black" href="#">
+      <a className="font-bold text-xl text-black" href="#">
         Revathi
       </a>
       <nav className="hidden md:block">
