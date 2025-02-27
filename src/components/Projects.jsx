@@ -2,6 +2,22 @@ import bandImg from "../assets/band.jpg";
 import booksImg from "../assets/book-shelf.avif";
 
 export default function Projects() {
+  const config = {
+    projects: [
+      {
+        image: bandImg,
+        description:
+          "This is my Capstone project in Launchcode Program.Built with" +
+          "Springboot, React, Mysql.",
+      },
+      {
+        image: booksImg,
+        description:
+          "This is my current project.Built with Springboot, React, Mysql.",
+      },
+    ],
+  };
+
   return (
     <section
       id="projects"
@@ -20,23 +36,14 @@ export default function Projects() {
       </div>
       <div className="w-1/2">
         <div className="flex flex-col md:flex-row px-10 gap-5">
-          <div className="relative">
-            <img className="h-[200px] w-[500px]" src={bandImg} />
-            <div className="project-desc">
-              <p className="text-center px-5 py-5">
-                This is my Capstone project in Launchcode Program.Built with
-                Springboot, React, Mysql.
-              </p>
+          {config.projects.map((project) => (
+            <div className="relative">
+              <img className="h-[200px] w-[500px]" src={project.image} />
+              <div className="project-desc">
+                <p className="text-center px-5 py-5">{project.description}</p>
+              </div>
             </div>
-          </div>
-          <div className="relative">
-            <img className="h-[200px] w-[500px]" src={booksImg} />
-            <div className="project-desc">
-              <p className="text-center px-5 py-5">
-                This is my current project.Built with Springboot, React, Mysql.
-              </p>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
