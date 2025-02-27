@@ -27,7 +27,7 @@ header ul li {
 }
 
 .button {
-   @apply bg-primary px-3 py-2 font-bold hover:border-2 border-white rounded;
+   @apply bg-primary px-3 py-1 font-bold hover:border-2 border-white rounded;
 }
 
 html {

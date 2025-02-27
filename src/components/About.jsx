@@ -1,6 +1,18 @@
 import AboutImg from "../assets/about.jpg";
 
 export default function About() {
+  const config = {
+    line1:
+      "Hi, My name is Revathi. I am a Full stack web developer. I built" +
+      "beautiful websites with React.js, Springboot , Bootstrap and" +
+      "Tailwind CSS.",
+    line2:
+      "I am proficient in skills like React js, Tailwind CSS, Angular" +
+      "js, Bootstrap, Thymeleaf, Springboot, Postman API, Restful web" +
+      "services, Node.js, Mysql workbench, Jenkins, Aws basics, Docker," +
+      "Junit.",
+  };
+
   return (
     <>
       <section id="about" className="flex flex-col md:flex-row bg-secondary">
@@ -13,17 +25,8 @@ export default function About() {
               About Me
             </h1>
             <div className="text-white">
-              <p className="pb-5">
-                Hi, My name is Revathi. I am a Full stack web developer. I built
-                beautiful websites with React.js, Springboot , Bootstrap and
-                Tailwind CSS.
-              </p>
-              <p className="pb-5">
-                I am proficient in skills like React js, Tailwind CSS, Angular
-                js, Bootstrap, Thymeleaf, Springboot, Postman API, Restful web
-                services, Node.js, Mysql workbench, Jenkins, Aws basics, Docker,
-                Junit.
-              </p>
+              <p className="pb-5">{config.line1}</p>
+              <p className="pb-5">{config.line2}</p>
             </div>
           </div>
         </div>
