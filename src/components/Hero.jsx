@@ -5,6 +5,10 @@ import { AiOutlineGithub } from "react-icons/ai";
 export default function Hero() {
   const config = {
     role: "I am a Java Full-Stack Developer / SDET",
+    social: {
+      linkedin: "https://www.linkedin.com/in/revathi-anbazhagan-196786277/",
+      github: "https://github.com/arevathi125",
+    },
   };
 
   return (
@@ -15,10 +19,10 @@ export default function Hero() {
           <p className="text-2xl">{config.role}</p>
         </h1>
         <div className="flex py-7">
-          <a href="#" className="pr-5 hover:text-white">
+          <a href={config.social.github} className="pr-5 hover:text-white">
             <AiOutlineGithub size={40} />
           </a>
-          <a href="#" className="pr-5 hover:text-white">
+          <a href={config.social.linkedin} className="pr-5 hover:text-white">
             <AiOutlineLinkedin size={40} />
           </a>
         </div>

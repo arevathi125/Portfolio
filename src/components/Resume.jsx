@@ -1,6 +1,10 @@
 import ResumeImg from "../assets/resume.png";
 
 export default function Resume() {
+  const config = {
+    link: "https://docs.google.com/document/d/1PAWod2MjVA4qnjc5cpqHGthhZLQZCESF_9pbNb4of78/edit?tab=t.0#heading=h.ymi089liagec",
+  };
+
   return (
     <>
       <section
@@ -17,7 +21,7 @@ export default function Resume() {
             <div className="text-white">
               <p className="pb-5">
                 Hi here is my resume link, you can view my resume
-                <a className="button" href="#">
+                <a className="button" href={config.link}>
                   Download
                 </a>
               </p>
