@@ -4,7 +4,7 @@ export default function About() {
   const config = {
     line1:
       "Hi, My name is Revathi. I am a Full stack web developer. I built" +
-      "beautiful websites with React.js, Springboot , Bootstrap and" +
+      " beautiful websites with React.js, Springboot , Bootstrap and" +
       "Tailwind CSS.",
     line2:
       "I am proficient in skills like React js, Tailwind CSS, Angular" +
